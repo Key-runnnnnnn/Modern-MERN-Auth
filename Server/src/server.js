@@ -14,7 +14,7 @@ dotenv.config();
 // Exported variables
 const PORT = process.env.PORT || 3000;
 connectDB();
-const alloweOrigins = ['http://localhost:5173'];
+const alloweOrigins = ['http://localhost:5173','https://modern-mern-auth-client.onrender.com'];
 
 // Middlewares
 app.use(express.json()); // for parsing application/json
